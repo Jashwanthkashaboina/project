@@ -115,3 +115,26 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* hero-section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* item are arranged through cross axis. The direction of cross axis will be top to bottom */
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex; /* first to bring them in to center we need to display them as flex */
+    align-items: center; /* next to bring them vertically center we need to use align items and set it to center */
+    justify-content: center; /* And last to bring them horizontally center we need to use justify-content and set it to center */
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px ;
+}
+.hero-msg a{
+    color: #007185;
+}
